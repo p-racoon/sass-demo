@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: #eeeeee;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 35%;
+    width: 35%;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: -10px -10px 10px 0 rgba(255, 255, 255, 1), 10px 10px 10px 0 rgba(0, 0, 0, .03), 1px 1px 2px 0 rgba(255, 255, 255, 1) inset, -1px -1px 2px 0 rgba(0, 0, 0, .03) inset;
+}
